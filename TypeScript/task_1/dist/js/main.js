@@ -26,4 +26,10 @@ var director1 = {
     numberOfReports: 17,
 };
 console.log(director1);
+// Implement the function
+var printTeacher = function (firstName, lastName) {
+    return firstName.charAt(0) + ". " + lastName;
+};
+// Example usage
+console.log(printTeacher("Alex", "Guadalupe"));
 //# sourceMappingURL=main.js.map
